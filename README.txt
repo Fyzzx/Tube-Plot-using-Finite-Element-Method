@@ -1,6 +1,9 @@
 README
 
-This code requires very few inputs in order to make a nice tube plot with optional end cap (MATLAB only).
+Required files are Tubeplot.py , first_der.py , and seconder_der.py.
+DriveTubePlot.py is a test function which provides inputs to tubeplot.
+
+This code requires very few inputs in order to make a nice tube plot.
 The MATLAB version of this code is much nicer looking than the matplotlib python version. 
 first_der and second_der files are required as they are the finite element 1st and 2nd derivatives used in creating the shape. 
 
