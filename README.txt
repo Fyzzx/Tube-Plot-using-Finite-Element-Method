@@ -10,7 +10,7 @@ first_der and second_der files are required as they are the finite element 1st a
 **Inputs for filament:**
 - r(N,3) = Euclidian location of N number of points which define a backbone of a filament in 3 Euclidian dimensions
 - a(N,1) = radius of each node. This assumes each node is a cylinder. 
-- Om3(N,1) = $\Omega_3$ tangential component of a strain vector (twist / unit length). Using zeros everywhere assumes that your shapes is bent into its conformation
+- Omega3(N,1) = $\Omega_3$ tangential component of a strain vector (twist / unit length). Using zeros everywhere assumes that your shapes is bent into its conformation
 
 **Inputs for plotting (Python):**
 - opacity = zero to 1 representation of opacity
